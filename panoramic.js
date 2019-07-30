@@ -1,0 +1,1 @@
+const adobeApi = new Pagination('panoramic');
