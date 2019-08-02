@@ -7,7 +7,7 @@ class AdobeAPI {
         $.ajax({
             url: `https://stock.adobe.io/Rest/Media/1/Search/Files?locale=en_US&search_parameters[words]=${word}&search_parameters[limit]=${limit}&search_parameters[offset]=${offset}`,
             beforeSend: function (xhr) {
-                xhr.setRequestHeader("x-api-key", "1ffbb52344f745b4b37a23127c4f57d0")
+                xhr.setRequestHeader("x-api-key", "*********************************")
                 xhr.setRequestHeader("x-product", "www.arpley.pl")
             },
             success: function (data) {
